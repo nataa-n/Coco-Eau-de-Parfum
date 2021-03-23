@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+}
+*::selection{
+    background: #F5A872;
+    color: #EAEAEA;
+}
+body{
+    background-color: #1E1E1E;
+}
+header{
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align: center;
+    height: 50px;
+}
+
+.coco_logo{
+    display: inline-block;
+    float: left;
+}
+.coco_logo>img{
+    width: 50px;
+}
+.menu{
+    display: inline-block;
+    margin-left: 150px;
+    padding-top: 6px;
+    transition: 0.8s;
+}
+
+ul li{
+    display: inline;
+    list-style-type: none;
+	margin-right: 15px;
+}
+.menu_a{
+	display: inline;
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #afafaf;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#home{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #afafaf;
+    transition: 0.5s;
+}
+#home:hover{
+    transition: 0.5s;
+    color: #EAEAEA;
+    font-size: 21px;
+}
+.menu_a:hover{
+    transition: 0.5s;
+    color: #EAEAEA;
+    font-size: 21px;
+}
+.menu_logos{
+    display: inline-block;
+    float: right;
+    padding-top: 6px;
+}
+.menu_logos>img{
+    width: 23px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+#search:hover{
+    background: url("images/search_hover.png");
+    background-size: 23px;
+    cursor: pointer;
+}
+#card:hover{
+    background: url("images/card_hover.png");
+    background-size: 23px;
+    cursor: pointer;
+}
+.wrapper{
+    display: block;
+    float: left;
+    margin-top: 100px;
+    margin-left: 130px;
+    margin-bottom: 150px;
+}
+#coco{
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 78px;
+    color: #3f3f3f;
+}
+#main_text{
+    margin-top: 70px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.1em;
+    color: #EAEAEA;
+}
+#second_text{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F5A872;
+}
+.wrapper2{
+    display: block;
+    float: right;
+    margin-right: 80px;
+    margin-top: 160px;
+    transition: 0.8s;
+}
+.wrapper2:hover{
+    transition: 0.8s;
+    transform: scale(1.1,1.1);
+}
+.wrapper2>img{
+    width: 500px;
+}
+#button1{
+    display: inline-block;
+    margin-top: 100px;
+    background: #F5A872;
+    width: 174px;
+    height: 58px;
+    transition: 0.3s;
+}
+#button1:hover{
+    transition: 0.3s;
+    background: #dd8d53;
+}
+#button2{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 174px;
+    height: 58px;
+    border: 1px solid #F5A872;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+#button2:hover{
+    transition: 0.3s;
+    border: 1px solid #dd8d53;
+}
+#bt1_tx{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    color: #1E1E1E;
+}
+#bt2_tx{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    color: #F5A872;
+    transition: 0.3s;
+}
+#bt2_tx:hover{
+    transition: 0.3s;
+    color: #dd8d53;
+}
